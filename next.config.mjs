@@ -59,11 +59,6 @@ const nextConfig = {
         permanent: false,
       },
       {
-        source: '/hairstyles',
-        destination: '/#generator',
-        permanent: false,
-      },
-      {
         source: '/ai-image-generator',
         destination: '/#generator',
         permanent: false,

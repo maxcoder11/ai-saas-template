@@ -14,6 +14,8 @@ const HOME_SECTION_ORDER = [
   'generator',
   'showcases',
   'features',
+  'useCases',
+  'howTo',
   'update',
   'pricing',
   'faq',

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Nano Banana Pro Prompts & Showcases",
-    "description": "Awesome projects built with Nano Banana Pro"
+    "title": "AI Showcases",
+    "description": "Explore creative AI-generated work and prompts."
   },
   "ui": {
     "create_similar": "Create Similar",
@@ -12,99 +12,16 @@
   "showcases-flow": {
     "id": "showcases",
     "sr_only_title": "Showcases",
-    "title": "Nano Banana Pro Prompts",
-    "description": "Representative editing and generation cases powered by Nano Banana Pro",
-    "items": [
-      {
-        "title": "Vertical fisheye selfie",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/1.jpeg",
-          "alt": "AI SaaS Showcase 1"
-        },
-        "prompt": "vertical-fisheye-selfie"
-      },
-      {
-        "title": "AI SaaS Showcase 2",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/2.jpeg",
-          "alt": "AI SaaS Showcase 2"
-        },
-        "prompt": "3d-digital-human-comics"
-      },
-      {
-        "title": "AI SaaS Showcase 3",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/3.jpeg",
-          "alt": "AI SaaS Showcase 3"
-        }
-      },
-      {
-        "title": "AI SaaS Showcase 4",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/4.jpeg",
-          "alt": "AI SaaS Showcase 4"
-        }
-      },
-      {
-        "title": "AI SaaS Showcase 5",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/5.jpeg",
-          "alt": "AI SaaS Showcase 5"
-        }
-      },
-      {
-        "title": "AI SaaS Showcase 6",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/6.jpeg",
-          "alt": "AI SaaS Showcase 6"
-        }
-      },
-      {
-        "title": "AI SaaS Showcase 7",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/7.jpeg",
-          "alt": "AI SaaS Showcase 7"
-        }
-      },
-      {
-        "title": "AI SaaS Showcase 8",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/8.jpeg",
-          "alt": "AI SaaS Showcase 8"
-        }
-      },
-      {
-        "title": "AI SaaS Showcase 9",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/9.jpeg",
-          "alt": "AI SaaS Showcase 9"
-        }
-      },
-      {
-        "title": "AI SaaS Showcase 10",
-        "description": "AI SaaS Showcase",
-        "image": {
-          "src": "/imgs/showcases/10.jpeg",
-          "alt": "AI SaaS Showcase 10"
-        }
-      }
-    ]
+    "title": "AI Showcases",
+    "description": "Explore creative work and find inspiration for your next creation.",
+    "items": []
   },
   "page": {
     "title": "Showcases",
     "sections": {
       "showcases": {
         "id": "showcases",
-        "title": "AI SaaS Startups built with Nano Banana Pro",
+        "title": "AI Showcases",
         "description": "Easy to use and fast to ship.",
         "groups": [
           {

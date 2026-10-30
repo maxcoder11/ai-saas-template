@@ -13,7 +13,8 @@
       "generator",
       "showcases",
       "features",
-      "update",
+      "useCases",
+      "howTo",
       "pricing",
       "faq",
       "cta"
@@ -24,10 +25,6 @@
         "title": "Seedance AI Video Generator",
         "highlight_text": "AI Video Generator",
         "description": "Turn text and images into cinematic AI videos with Seedance. Create with the available high-speed Seedance 2.0 workflow today.",
-        "announcement": {
-          "title": "Seedance 2.5 announced · Track release updates →",
-          "url": "/seedance-2-5"
-        },
         "buttons": [
           {
             "title": "Generate Video",
@@ -52,7 +49,7 @@
         "block": "video-examples",
         "id": "showcases",
         "columns": 2,
-        "title": "Made with Seedance",
+        "title": "AI Video Examples",
         "description": "Real cinematic AI video examples generated with text and image prompts. Discover what you can create today.",
         "ui": {
           "play": "Play video",
@@ -262,21 +259,82 @@
           }
         ]
       },
-      "update": {
-        "block": "cta",
-        "id": "update",
-        "title": "Seedance 2.5 is Coming",
-        "description": "Next-generation video creation with longer generation workflows, richer multimodal references, and enhanced visual consistency.",
-        "buttons": [
+      "useCases": {
+        "id": "use-cases",
+        "block": "use-case-cards",
+        "title": "Video Creation Use Cases",
+        "description": "Explore practical ways to create videos across different workflows.",
+        "items": [
           {
-            "title": "Explore Seedance 2.5 Updates",
-            "url": "/seedance-2-5",
-            "target": "_self",
-            "icon": "Sparkles",
-            "variant": "default"
+            "title": "Advertising & Marketing",
+            "description": "Turn product shots and brand assets into short clips for ads, landing pages, and campaign tests—without a full shoot.",
+            "icon": "Megaphone",
+            "tags": [
+              "Product Videos",
+              "Brand Content",
+              "Commercial Ads",
+              "Template Replication"
+            ]
+          },
+          {
+            "title": "Social Media & Short-form",
+            "description": "One clear action, vertical-friendly framing, and fast iterations for feeds where motion stops the scroll.",
+            "icon": "Smartphone",
+            "tags": [
+              "TikTok Videos",
+              "Instagram Reels",
+              "YouTube Shorts",
+              "Vertical Clips"
+            ]
+          },
+          {
+            "title": "Character & Animation",
+            "description": "Animate from a reference image with controlled motion—validate faces, hands, and continuity before you ship.",
+            "icon": "UserRound",
+            "tags": [
+              "Character Animation",
+              "Gesture Control",
+              "Face Continuity",
+              "Reference Motion"
+            ]
+          },
+          {
+            "title": "Film & Pre-Production",
+            "description": "Explore camera moves, lighting, and blocking in short loops before committing to a full production day.",
+            "icon": "Clapperboard",
+            "tags": [
+              "Film Previsualization",
+              "Camera Planning",
+              "Lighting Tests",
+              "Shot Iteration"
+            ]
+          }
+        ]
+      },
+      "howTo": {
+        "id": "how-to-use",
+        "block": "features-step",
+        "title": "How to Use the Video Generator",
+        "description": "Prompt formula: subject + action + camera + environment + style. For example: a ceramic mug, steam rising, a slow push-in, on a sunlit desk, natural product photography.",
+        "columns": 3,
+        "items": [
+          {
+            "title": "Add a prompt or reference",
+            "description": "Choose Text to Video, Image to Video, or Video to Video. Add the material required by that workflow.",
+            "icon": "FileInput"
+          },
+          {
+            "title": "Select model and settings",
+            "description": "Select an available model. Set the available duration, aspect ratio, resolution, and generated-audio option.",
+            "icon": "Settings2"
+          },
+          {
+            "title": "Review credits and generate",
+            "description": "Review the estimate and sign in to submit. Check the completed result before downloading or iterating.",
+            "icon": "Download"
           }
         ],
-        "className": "bg-muted/40 border-y"
+        "className": "bg-muted/30"
       },
       "pricing": {
         "block": "pricing-plans",
@@ -302,7 +360,7 @@
           },
           {
             "question": "When will Seedance 2.5 be available on this site?",
-            "answer": "This site currently provides video generation with Seedance 2.0 models. Seedance 2.5 is not yet integrated. For progress on Seedance 2.5 integration, visit the <a href=\"/seedance-2-5\">updates page</a>."
+            "answer": "This site currently provides video generation with Seedance 2.0 models. Seedance 2.5 is not yet integrated."
           },
           {
             "question": "What video resolutions and aspect ratios are supported?",

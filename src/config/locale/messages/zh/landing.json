@@ -12,30 +12,6 @@
     "nav": {
       "items": [
         {
-          "title": "模型",
-          "icon": "Video",
-          "children": [
-            {
-              "title": "Seedance 2.0 (在线生成)",
-              "description": "极速与标准生成工作流，支持图生视频与文本生成",
-              "url": "/seedance-2-0",
-              "icon": "Sparkles"
-            },
-            {
-              "title": "Seedance 2.5 综述",
-              "description": "下一代 30 秒叙事大模型，多模态参考与时间戳编辑",
-              "url": "/seedance-2-5",
-              "icon": "Rocket"
-            },
-            {
-              "title": "什么是 Seedance？",
-              "description": "字节跳动 AI 视频模型家族完整科普",
-              "url": "/what-is-seedance",
-              "icon": "BookOpenText"
-            }
-          ]
-        },
-        {
           "title": "案例展示",
           "url": "/#showcases",
           "icon": "Clapperboard"
@@ -73,7 +49,7 @@
     "id": "footer",
     "brand": {
       "title": "Seadance Video",
-      "description": "下一代生成式视频工作流。探索字节跳动 Seedance 2.0 与 2.5 模型，详尽技术横评，提示词工程指南与云端 API 集成。",
+      "description": "通过 AI 创作工作流，将文字与图像转化为视频。",
       "logo": {
         "src": "/seadance-logo.svg",
         "alt": "Seadance Video logo"
@@ -83,28 +59,8 @@
     "nav": {
       "items": [
         {
-          "title": "核心模型与产品",
+          "title": "产品",
           "children": [
-            {
-              "title": "Seedance 2.0 生成器",
-              "url": "/seedance-2-0",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.5 综述",
-              "url": "/seedance-2-5",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.5 vs 2.0",
-              "url": "/seedance-2-5/vs-seedance-2-0",
-              "target": "_self"
-            },
-            {
-              "title": "什么是 Seedance",
-              "url": "/what-is-seedance",
-              "target": "_self"
-            },
             {
               "title": "作品展示",
               "url": "/#showcases",
@@ -123,41 +79,6 @@
           ]
         },
         {
-          "title": "模型对比矩阵",
-          "children": [
-            {
-              "title": "所有视频模型横评",
-              "url": "/compare",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance vs 可灵 Kling",
-              "url": "/compare/seedance-vs-kling",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance vs MiniMax 海螺",
-              "url": "/compare/seedance-vs-minimax-h3",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance vs Google Veo",
-              "url": "/compare/seedance-vs-veo",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance vs Sora & Runway",
-              "url": "/blog/seedance-2-5-features-vs-sora-runway",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.0 Mini vs Fast",
-              "url": "/blog/seedance-2-0-mini-vs-fast",
-              "target": "_self"
-            }
-          ]
-        },
-        {
           "title": "资源与博客",
           "children": [
             {
@@ -168,66 +89,6 @@
             {
               "title": "提示词库",
               "url": "/prompts",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.0 提示词指南",
-              "url": "/prompts/seedance-2-0",
-              "target": "_self"
-            },
-            {
-              "title": "使用教程",
-              "url": "/how-to-use-seedance",
-              "target": "_self"
-            },
-            {
-              "title": "Reddit 社区评测",
-              "url": "/blog/seedance-review-reddit",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.5 Reddit 评测",
-              "url": "/blog/seedance-2-5-review-reddit",
-              "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "开发者与高级工作流",
-          "children": [
-            {
-              "title": "Seedance API",
-              "url": "/seedance-api",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.5 API 指南",
-              "url": "/seedance-2-5/api",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance MCP 与 Claude Skill",
-              "url": "/blog/seedance-mcp-skill-guide",
-              "target": "_self"
-            },
-            {
-              "title": "3D 白模空间预演指南",
-              "url": "/blog/seedance-2-5-greybox-blockout-guide",
-              "target": "_self"
-            },
-            {
-              "title": "开源状态说明",
-              "url": "/seedance/open-source",
-              "target": "_self"
-            },
-            {
-              "title": "故障排查与报错解决",
-              "url": "/seedance/troubleshooting",
-              "target": "_self"
-            },
-            {
-              "title": "商用授权与去水印说明",
-              "url": "/seedance/watermark-copyright",
               "target": "_self"
             }
           ]

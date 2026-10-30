@@ -12,38 +12,9 @@
     "nav": {
       "items": [
         {
-          "title": "Models",
-          "icon": "Video",
-          "children": [
-            {
-              "title": "Seedance 2.0 (Generator)",
-              "description": "Online AI video generator with fast & standard workflows",
-              "url": "/seedance-2-0",
-              "icon": "Sparkles"
-            },
-            {
-              "title": "Seedance 2.5 Hub",
-              "description": "Next-gen 30s video model, multimodal refs & editing",
-              "url": "/seedance-2-5",
-              "icon": "Rocket"
-            },
-            {
-              "title": "What is Seedance?",
-              "description": "ByteDance AI video model family explained",
-              "url": "/what-is-seedance",
-              "icon": "BookOpenText"
-            }
-          ]
-        },
-        {
           "title": "Examples",
           "url": "/#showcases",
           "icon": "Clapperboard"
-        },
-        {
-          "title": "Hotel Lobby AI",
-          "url": "/hotel-lobby-ai",
-          "icon": "Mic"
         },
         {
           "title": "Prompts",
@@ -78,7 +49,7 @@
     "id": "footer",
     "brand": {
       "title": "Seadance Video",
-      "description": "Next-generation generative video workflows. Explore ByteDance Seedance 2.0 & 2.5 models, detailed technical comparisons, prompt engineering guides, and cloud API integration.",
+      "description": "Create videos from text and images with AI-powered workflows.",
       "logo": {
         "src": "/seadance-logo.svg",
         "alt": "Seadance Video logo"
@@ -88,36 +59,11 @@
     "nav": {
       "items": [
         {
-          "title": "Models & Product",
+          "title": "Product",
           "children": [
-            {
-              "title": "Seedance 2.0 Generator",
-              "url": "/seedance-2-0",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.5 Model Hub",
-              "url": "/seedance-2-5",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.5 vs 2.0",
-              "url": "/seedance-2-5/vs-seedance-2-0",
-              "target": "_self"
-            },
-            {
-              "title": "What is Seedance?",
-              "url": "/what-is-seedance",
-              "target": "_self"
-            },
             {
               "title": "Video Showcase",
               "url": "/#showcases",
-              "target": "_self"
-            },
-            {
-              "title": "Hotel Lobby AI",
-              "url": "/hotel-lobby-ai",
               "target": "_self"
             },
             {
@@ -133,41 +79,6 @@
           ]
         },
         {
-          "title": "Model Comparisons",
-          "children": [
-            {
-              "title": "All AI Video Comparisons",
-              "url": "/compare",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance vs Kling AI",
-              "url": "/compare/seedance-vs-kling",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance vs MiniMax H3",
-              "url": "/compare/seedance-vs-minimax-h3",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance vs Google Veo",
-              "url": "/compare/seedance-vs-veo",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance vs Sora & Runway",
-              "url": "/blog/seedance-2-5-features-vs-sora-runway",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.0 Mini vs Fast",
-              "url": "/blog/seedance-2-0-mini-vs-fast",
-              "target": "_self"
-            }
-          ]
-        },
-        {
           "title": "Resources & Blog",
           "children": [
             {
@@ -178,66 +89,6 @@
             {
               "title": "Prompt Library",
               "url": "/prompts",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.0 Prompt Guide",
-              "url": "/prompts/seedance-2-0",
-              "target": "_self"
-            },
-            {
-              "title": "How to Use Seedance",
-              "url": "/how-to-use-seedance",
-              "target": "_self"
-            },
-            {
-              "title": "Reddit Community Review",
-              "url": "/blog/seedance-review-reddit",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.5 Reddit Review",
-              "url": "/blog/seedance-2-5-review-reddit",
-              "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "Developers & Workflows",
-          "children": [
-            {
-              "title": "Seedance API",
-              "url": "/seedance-api",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance 2.5 API Guide",
-              "url": "/seedance-2-5/api",
-              "target": "_self"
-            },
-            {
-              "title": "Seedance MCP & Claude Skill",
-              "url": "/blog/seedance-mcp-skill-guide",
-              "target": "_self"
-            },
-            {
-              "title": "3D Greybox Pre-Viz Guide",
-              "url": "/blog/seedance-2-5-greybox-blockout-guide",
-              "target": "_self"
-            },
-            {
-              "title": "Is Seedance Open Source?",
-              "url": "/seedance/open-source",
-              "target": "_self"
-            },
-            {
-              "title": "Troubleshooting & Errors",
-              "url": "/seedance/troubleshooting",
-              "target": "_self"
-            },
-            {
-              "title": "Commercial & Watermark Terms",
-              "url": "/seedance/watermark-copyright",
               "target": "_self"
             }
           ]

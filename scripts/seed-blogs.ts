@@ -10,7 +10,6 @@
 import dotenv from "dotenv";
 dotenv.config({ path: ".env.local" });
 import fs from "fs";
-import path from "path";
 import { db } from "@/core/db";
 import { post, taxonomy, user } from "@/config/db/schema";
 import { eq, and } from "drizzle-orm";
@@ -29,59 +28,15 @@ interface BlogSeed {
   locale: string;
 }
 
-const blogsToSeed: BlogSeed[] = [
-  {
-    slug: "seedance-2-5-release-date-and-overview",
-    title: "Seedance 2.5 Announced: ByteDance Next-Gen AI Video Generator Release Date, Specs & Access",
-    description: "Discover the latest announcement on ByteDance Seedance 2.5. Explore expected release dates, early access details, 30-second 4K video capabilities, and how to test Seedance video generators today.",
-    categoryName: "news-updates",
-    categoryTitle: "News & Updates",
-    filePath: path.join(process.cwd(), "content", "posts", "seedance-2-5-release-date-and-overview.md"),
-    coverUrl: "/preview.png",
-    authorName: "Seadance AI Editorial",
-    authorAvatarUrl: "/seadance-logo.svg",
-    locale: "en",
-  },
-  {
-    slug: "seedance-2-5-prompt-engineering-guide",
-    title: "Ultimate Seedance 2.5 Prompt Engineering Guide: Master Cinematic AI Video Generation",
-    description: "Learn how to write high-performing text-to-video and image-to-video prompts for Seedance 2.5. Includes camera movement syntax, lighting formulas, negative prompts, and template examples.",
-    categoryName: "tutorials-guides",
-    categoryTitle: "Tutorials & Guides",
-    filePath: path.join(process.cwd(), "content", "posts", "seedance-2-5-prompt-engineering-guide.md"),
-    coverUrl: "/preview.png",
-    authorName: "Seadance AI Editorial",
-    authorAvatarUrl: "/seadance-logo.svg",
-    locale: "en",
-  },
-  {
-    slug: "seedance-2-5-features-vs-sora-runway",
-    title: "ByteDance Seedance 2.5 Features Breakdown: How It Compares to Sora and Runway Gen-3",
-    description: "Compare Seedance 2.5 against OpenAI Sora, Runway Gen-3 Alpha, and MiniMax H3. Explore multimodal reference scalability, physical dynamics, resolution, and production workflows.",
-    categoryName: "technical-deep-dive",
-    categoryTitle: "Technical Deep Dive",
-    filePath: path.join(process.cwd(), "content", "posts", "seedance-2-5-features-vs-sora-runway.md"),
-    coverUrl: "/preview.png",
-    authorName: "Seadance AI Editorial",
-    authorAvatarUrl: "/seadance-logo.svg",
-    locale: "en",
-  },
-  {
-    slug: "seedance-2-5-1080p-guide",
-    title: "Seedance 2.5 1080p: What It Means, How to Get It, and Prompts That Work",
-    description: "A practical guide to Seedance 2.5 1080p: availability checks, 1080p vs 720p, prompt structure, export QA, and long-tail workflow tips.",
-    categoryName: "tutorials-guides",
-    categoryTitle: "Tutorials & Guides",
-    filePath: path.join(process.cwd(), "content", "posts", "seedance-2-5-1080p-guide.md"),
-    coverUrl: "/preview.png",
-    authorName: "Seadance AI Editorial",
-    authorAvatarUrl: "/seadance-logo.svg",
-    locale: "en",
-  },
-];
+const blogsToSeed: BlogSeed[] = [];
 
 async function seed() {
   console.log("Starting Blog Seeding Script for ShipAny2...");
+
+  if (blogsToSeed.length === 0) {
+    console.log("No blog entries configured.");
+    return;
+  }
 
   // Get or create a valid user
   let [currentUser] = await db().select().from(user).limit(1);

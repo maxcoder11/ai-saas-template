@@ -13,7 +13,8 @@
       "generator",
       "showcases",
       "features",
-      "update",
+      "useCases",
+      "howTo",
       "pricing",
       "faq",
       "cta"
@@ -24,10 +25,6 @@
         "title": "Seedance AI 视频生成器",
         "highlight_text": "AI 视频生成器",
         "description": "将文本和图像转化为电影级 AI 视频。即刻体验现已支持的 Seedance 2.0 高速创作工作流。",
-        "announcement": {
-          "title": "Seedance 2.5 正式公布 · 追踪最新发布动态 →",
-          "url": "/seedance-2-5"
-        },
         "buttons": [
           {
             "title": "立即生成视频",
@@ -63,7 +60,7 @@
           "go_generator": "去生成器",
           "browse_all": "浏览全部"
         },
-        "title": "Made with Seedance 精选作品",
+        "title": "AI 视频作品",
         "description": "基于文字与图像提示词生成的真实电影级 AI 视频。探索今天你可以创作的一切。",
         "items": [
           {
@@ -258,21 +255,82 @@
           }
         ]
       },
-      "update": {
-        "block": "cta",
-        "id": "update",
-        "title": "Seedance 2.5 即将到来",
-        "description": "新一代多模态 AI 视频创作：更长生成时长、多模态参考输入与更强视觉一致性。",
-        "buttons": [
+      "useCases": {
+        "id": "use-cases",
+        "block": "use-case-cards",
+        "title": "视频创作应用场景",
+        "description": "探索适用于不同创作工作流的视频应用场景。",
+        "items": [
           {
-            "title": "探索 Seedance 2.5 最新动态",
-            "url": "/seedance-2-5",
-            "target": "_self",
-            "icon": "Sparkles",
-            "variant": "default"
+            "title": "广告与营销",
+            "description": "把产品图与品牌素材快速变成广告、落地页与投放测试用的短片，无需完整拍摄。",
+            "icon": "Megaphone",
+            "tags": [
+              "产品视频",
+              "品牌内容",
+              "商业广告",
+              "模板复刻"
+            ]
+          },
+          {
+            "title": "社媒与短视频",
+            "description": "一个清晰动作、竖屏友好构图，快速迭代适合信息流传播的动态内容。",
+            "icon": "Smartphone",
+            "tags": [
+              "TikTok 视频",
+              "Instagram Reels",
+              "YouTube Shorts",
+              "竖屏短片"
+            ]
+          },
+          {
+            "title": "角色与动画",
+            "description": "以参考图驱动可控动作，发布前检查面部、手部与镜头连续性。",
+            "icon": "UserRound",
+            "tags": [
+              "角色动画",
+              "手势控制",
+              "面部连续",
+              "参考动作"
+            ]
+          },
+          {
+            "title": "影视与前期",
+            "description": "在正式开拍前，用短循环探索运镜、光线与走位。",
+            "icon": "Clapperboard",
+            "tags": [
+              "镜头预演",
+              "运镜规划",
+              "光线测试",
+              "镜头迭代"
+            ]
+          }
+        ]
+      },
+      "howTo": {
+        "id": "how-to-use",
+        "block": "features-step",
+        "title": "如何使用视频生成器",
+        "description": "提示词公式：主体 + 动作 + 镜头 + 环境 + 风格。例如：陶瓷杯冒着热气，镜头缓慢推进，阳光照射的桌面，自然产品摄影风格。",
+        "columns": 3,
+        "items": [
+          {
+            "title": "添加提示词或参考素材",
+            "description": "选择文生、图生或视频转视频，添加该工作流需要的素材。",
+            "icon": "FileInput"
+          },
+          {
+            "title": "选择型号与参数",
+            "description": "选择可用模型，设置可用时长、画幅、分辨率与生成音频选项。",
+            "icon": "Settings2"
+          },
+          {
+            "title": "确认积分并生成",
+            "description": "确认积分预估并登录提交。检查结果后下载，或调整提示词继续迭代。",
+            "icon": "Download"
           }
         ],
-        "className": "bg-muted/40 border-y"
+        "className": "bg-muted/30"
       },
       "pricing": {
         "block": "pricing-plans",
@@ -298,7 +356,7 @@
           },
           {
             "question": "Seedance 2.5 什么时候可以在本站使用？",
-            "answer": "本站当前使用 Seedance 2.0 模型提供视频生成服务，暂未接入 Seedance 2.5。有关 Seedance 2.5 的接入进展，请查看<a href=\"/seedance-2-5\">最新动态页面</a>。"
+            "answer": "本站当前使用 Seedance 2.0 模型提供视频生成服务，暂未接入 Seedance 2.5。"
           },
           {
             "question": "支持哪些视频输出分辨率和画幅？",

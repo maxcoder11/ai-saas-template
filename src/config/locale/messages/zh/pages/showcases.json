@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "案例展示",
-    "description": "用 Nano Banana Pro 打造的精彩项目"
+    "title": "AI 作品展示",
+    "description": "探索 AI 创作作品与提示词。"
   },
   "ui": {
     "create_similar": "创建相似",
@@ -12,99 +12,16 @@
   "showcases-flow": {
     "id": "showcases",
     "sr_only_title": "案例展示",
-    "title": "Nano Banana Pro 提示词",
-    "description": "由 Nano Banana Pro 提供支持的代表性编辑和生成案例",
-    "items": [
-      {
-        "title": "垂直鱼眼自拍",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/1.jpeg",
-          "alt": "AI SaaS 案例展示 1"
-        },
-        "prompt": "vertical-fisheye-selfie"
-      },
-      {
-        "title": "AI SaaS 案例展示 2",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/2.jpeg",
-          "alt": "AI SaaS 案例展示 2"
-        },
-        "prompt": "3d-digital-human-comics"
-      },
-      {
-        "title": "AI SaaS 案例展示 3",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/3.jpeg",
-          "alt": "AI SaaS 案例展示 3"
-        }
-      },
-      {
-        "title": "AI SaaS 案例展示 4",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/4.jpeg",
-          "alt": "AI SaaS 案例展示 4"
-        }
-      },
-      {
-        "title": "AI SaaS 案例展示 5",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/5.jpeg",
-          "alt": "AI SaaS 案例展示 5"
-        }
-      },
-      {
-        "title": "AI SaaS 案例展示 6",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/6.jpeg",
-          "alt": "AI SaaS 案例展示 6"
-        }
-      },
-      {
-        "title": "AI SaaS 案例展示 7",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/7.jpeg",
-          "alt": "AI SaaS 案例展示 7"
-        }
-      },
-      {
-        "title": "AI SaaS 案例展示 8",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/8.jpeg",
-          "alt": "AI SaaS 案例展示 8"
-        }
-      },
-      {
-        "title": "AI SaaS 案例展示 9",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/9.jpeg",
-          "alt": "AI SaaS 案例展示 9"
-        }
-      },
-      {
-        "title": "AI SaaS 案例展示 10",
-        "description": "AI SaaS 案例展示",
-        "image": {
-          "src": "/imgs/showcases/10.jpeg",
-          "alt": "AI SaaS 案例展示 10"
-        }
-      }
-    ]
+    "title": "AI 作品展示",
+    "description": "欣赏创作作品，为下一次创作寻找灵感。",
+    "items": []
   },
   "page": {
     "title": "案例展示",
     "sections": {
       "showcases": {
         "id": "showcases",
-        "title": "用 Nano Banana Pro 构建的 AI SaaS 创业项目",
+        "title": "AI 作品展示",
         "description": "简单、快速、高效。",
         "groups": [
           {

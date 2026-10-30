@@ -13,7 +13,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import { renderToStaticMarkup } from 'react-dom/server';
 
 import { MODELS, type ModelEntry } from '../src/config/ai/models';
-import messages from '../src/config/locale/messages/en/pages/seedance-2-0.json';
 import { prepareModelLandingPage } from '../src/shared/lib/model-landing';
 import {
   formatPrimaryWithExceptions,
@@ -177,7 +176,7 @@ const makePage = (): DynamicPage => ({
       ],
     },
     examples: { id: 'examples', items: [{ video: { src: '/verified.webm' } }] },
-    cta: { buttons: [{ title: 'Examples', url: '/seedance-2-0#examples' }] },
+    cta: { buttons: [{ title: 'Examples', url: '/model#examples' }] },
   },
 });
 assert.equal(
@@ -198,17 +197,40 @@ for (const state of ['empty', 'disabled', 'excluded'] as const) {
   assert.equal(prepared.sections?.cta.buttons?.length, 0);
   assert.equal(page.sections?.hero.buttons?.length, 2);
 }
-const specification = messages.page.sections
-  .specifications as ModelSpecsSection;
-const renderSpecs = (section: ModelSpecsSection) =>
-  renderToStaticMarkup(
-    createElement(NextIntlClientProvider, {
-      locale: 'en',
-      messages: {},
-      timeZone: 'UTC',
-      children: createElement(ModelSpecs, { section }),
-    })
+const specification: ModelSpecsSection = {
+  id: 'specifications',
+  ...selection,
+  labels: {
+    input: 'Input Support',
+    limits: 'Limits',
+    pricing: 'Models & Credits',
+    model: 'Model',
+    workflows: 'Workflows',
+    resolution: 'Resolution',
+    duration: 'Duration',
+    seconds: 's',
+    exampleCredits: 'Credits (10s, 720p)',
+    scenes: {
+      'text-to-video': 'Text to Video',
+      'image-to-video': 'Image to Video',
+      'video-to-video': 'Video to Video',
+    },
+  },
+  inputItems: [],
+  limitsItems: [{ title: 'Mini', description: 'No Video to Video' }],
+  limitsNote: '',
+};
+const renderSpecs = (section: ModelSpecsSection) => {
+  const providerProps = {
+    locale: 'en',
+    messages: {},
+    timeZone: 'UTC',
+    children: createElement(ModelSpecs, { section }),
+  };
+  return renderToStaticMarkup(
+    createElement(NextIntlClientProvider, providerProps)
   );
+};
 const videoHtml = renderSpecs(specification);
 assert.equal((videoHtml.match(/<table\b/g) ?? []).length, 1);
 assert.equal((videoHtml.match(/scope="row"/g) ?? []).length, 3);
