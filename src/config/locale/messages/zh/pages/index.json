@@ -136,6 +136,10 @@
               "uploadDate": "2026-09-04T09:54:16+08:00",
               "duration": "PT5S"
             },
+            "image": {
+              "src": "/imgs/examples/video/glacier-titan.jpg",
+              "alt": "冰川泰坦 AI 视频示例封面"
+            },
             "button": {
               "title": "创建视频",
               "url": "/#generator",
@@ -367,7 +371,7 @@
       "cta": {
         "id": "cta",
         "title": "立即开启电影级 AI 视频创作",
-        "description": "用文字或参考图开启电影级 AI 视频创作。高速度、高一致性、专业运镜控制。",
+        "description": "通过 Seedance AI 视频生成，让创意变为现实。体验高速创作流程、丰富运镜和逼真画质。",
         "buttons": [
           {
             "title": "立即生成视频",

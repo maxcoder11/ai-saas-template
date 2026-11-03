@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "title": "AI 图像与视频积分价格",
-    "description": "购买积分包或选择订阅方案，用于图像和视频生成。"
+    "title": "Seadance Video 价格 | Seedance AI 视频积分",
+    "description": "购买积分包或选择订阅方案，用于 Seedance AI 视频生成。"
   },
   "page": {
-    "title": "AI 积分价格方案",
+    "title": "Seadance Video 价格方案",
     "sections": {
       "pricing": {
         "id": "pricing",
-        "title": "图像与视频积分方案",
-        "description": "积分可同时用于图像和视频生成。视频会按模型、分辨率和时长在生成前预估消耗。",
+        "title": "Seedance 视频积分方案",
+        "description": "生成前会根据模型、生成模式、分辨率和时长预估视频的积分消耗。",
         "groups": [
           {
             "name": "one-time",
@@ -141,7 +141,7 @@
           },
           {
             "title": "Pro 月付",
-            "description": "适合稳定使用图像和视频生成的用户。",
+            "description": "适合经常使用 Seedance 生成视频的用户。",
             "features_title": "包含内容",
             "features": [
               "每月 1,200 积分",
@@ -296,8 +296,8 @@
             "answer": "积分包是一次性购买，有效期 365 天。订阅方案按月或按年自动续订，并根据所选方案发放对应积分。"
           },
           {
-            "question": "同一份积分可以用于图像和视频吗？",
-            "answer": "可以。图像和视频生成共用同一个积分余额。视频消耗会在生成器中预估，并随模型、分辨率和时长变化。"
+            "question": "生成一条视频需要多少积分？",
+            "answer": "生成器会显示积分消耗，具体数值取决于模型、生成模式、分辨率和时长。"
           },
           {
             "question": "可以随时取消订阅吗？",
@@ -305,7 +305,7 @@
           },
           {
             "question": "有免费试用吗？",
-            "answer": "当前默认不发放免费试用积分。如后续开启免费积分，将仅用于基础图像生成体验。"
+            "answer": "当前默认不发放免费试用积分。如后续提供试用积分，会在生成前显示其可用情况和使用限制。"
           },
           {
             "question": "支持哪些支付方式？",
@@ -327,8 +327,8 @@
       },
       "cta": {
         "id": "cta",
-        "title": "立即使用 AI 积分开始生成",
-        "description": "选择适合您的方案，立即开始生成图像和视频。",
+        "title": "开始生成 Seedance 视频",
+        "description": "选择适合您创作流程的方案，立即开始生成视频。",
         "buttons": [
           {
             "title": "查看方案",

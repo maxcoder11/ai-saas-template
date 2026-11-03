@@ -1,55 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://seadance.video/</loc>
+    <loc>https://ai-saas-template-brown.vercel.app/</loc>
     <lastmod>2026-08-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://seadance.video/pricing</loc>
+    <loc>https://ai-saas-template-brown.vercel.app/pricing</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://seadance.video/privacy-policy</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://seadance.video/terms-of-service</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
 
   <!-- Blog -->
   <url>
-    <loc>https://seadance.video/blog</loc>
+    <loc>https://ai-saas-template-brown.vercel.app/blog</loc>
     <lastmod>2026-08-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Blog Categories -->
+  <!-- Chinese pages -->
   <url>
-    <loc>https://seadance.video/blog/category/news-updates</loc>
-    <lastmod>2026-08-11T00:00:00+00:00</lastmod>
+    <loc>https://ai-saas-template-brown.vercel.app/zh</loc>
+    <lastmod>2026-11-03T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://seadance.video/blog/category/tutorials-guides</loc>
-    <lastmod>2026-08-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://ai-saas-template-brown.vercel.app/zh/pricing</loc>
+    <lastmod>2026-11-03T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seadance.video/blog/category/technical-deep-dive</loc>
-    <lastmod>2026-08-11T00:00:00+00:00</lastmod>
+    <loc>https://ai-saas-template-brown.vercel.app/zh/blog</loc>
+    <lastmod>2026-11-03T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
 </urlset>

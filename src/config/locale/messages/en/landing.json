@@ -43,7 +43,7 @@
     },
     "show_sign": true,
     "show_theme": true,
-    "show_locale": false
+    "show_locale": true
   },
   "footer": {
     "id": "footer",
@@ -118,6 +118,6 @@
       ]
     },
     "show_theme": true,
-    "show_locale": false
+    "show_locale": true
   }
 }

@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
-    <loc>https://seadance.video/</loc>
+    <loc>https://ai-saas-template-brown.vercel.app/</loc>
     <video:video>
-      <video:thumbnail_loc>https://seadance.video/imgs/examples/video/monster-bakery.png</video:thumbnail_loc>
+      <video:thumbnail_loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/monster-bakery.png</video:thumbnail_loc>
       <video:title>Monster Bakery</video:title>
       <video:description>Cinematic AI video example: a whimsical bakery scene with rich motion and detail.</video:description>
-      <video:content_loc>https://seadance.video/videos/showcase/generated/monster-bakery.mp4</video:content_loc>
+      <video:content_loc>https://ai-saas-template-brown.vercel.app/videos/showcase/generated/monster-bakery.mp4</video:content_loc>
       <video:duration>5</video:duration>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://seadance.video/imgs/examples/video/web-acrobat.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/web-acrobat.jpg</video:thumbnail_loc>
       <video:title>Web Acrobat</video:title>
       <video:description>Cinematic AI video example: dynamic character motion with strong vertical framing.</video:description>
-      <video:content_loc>https://seadance.video/videos/showcase/generated/web-acrobat.mp4</video:content_loc>
+      <video:content_loc>https://ai-saas-template-brown.vercel.app/videos/showcase/generated/web-acrobat.mp4</video:content_loc>
       <video:duration>5</video:duration>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://seadance.video/imgs/examples/video/paper-dragon.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/paper-dragon.jpg</video:thumbnail_loc>
       <video:title>Paper Dragon</video:title>
       <video:description>Cinematic AI video example: paper-craft dragon with fluid camera movement.</video:description>
-      <video:content_loc>https://seadance.video/videos/showcase/generated/paper-dragon.mp4</video:content_loc>
+      <video:content_loc>https://ai-saas-template-brown.vercel.app/videos/showcase/generated/paper-dragon.mp4</video:content_loc>
       <video:duration>5</video:duration>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://seadance.video/imgs/examples/video/glacier-titan.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/glacier-titan.jpg</video:thumbnail_loc>
       <video:title>Glacier Titan</video:title>
       <video:description>Cinematic AI video example: epic scale landscape with dramatic atmosphere.</video:description>
-      <video:content_loc>https://seadance.video/videos/showcase/generated/glacier-titan.mp4</video:content_loc>
+      <video:content_loc>https://ai-saas-template-brown.vercel.app/videos/showcase/generated/glacier-titan.mp4</video:content_loc>
       <video:duration>5</video:duration>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://seadance.video/imgs/examples/video/monster-commuter.png</video:thumbnail_loc>
+      <video:thumbnail_loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/monster-commuter.png</video:thumbnail_loc>
       <video:title>Monster Commuter</video:title>
       <video:description>Cinematic AI video example: surreal commute scene with strong horizontal framing.</video:description>
-      <video:content_loc>https://seadance.video/videos/showcase/generated/monster-commuter.mp4</video:content_loc>
+      <video:content_loc>https://ai-saas-template-brown.vercel.app/videos/showcase/generated/monster-commuter.mp4</video:content_loc>
       <video:duration>5</video:duration>
     </video:video>
   </url>

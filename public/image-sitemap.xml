@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://seadance.video/</loc>
+    <loc>https://ai-saas-template-brown.vercel.app/</loc>
     <image:image>
-      <image:loc>https://seadance.video/imgs/examples/video/monster-bakery.png</image:loc>
+      <image:loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/monster-bakery.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://seadance.video/imgs/examples/video/web-acrobat.jpg</image:loc>
+      <image:loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/web-acrobat.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://seadance.video/imgs/examples/video/paper-dragon.jpg</image:loc>
+      <image:loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/paper-dragon.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://seadance.video/imgs/examples/video/glacier-titan.jpg</image:loc>
+      <image:loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/glacier-titan.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://seadance.video/imgs/examples/video/monster-commuter.png</image:loc>
+      <image:loc>https://ai-saas-template-brown.vercel.app/imgs/examples/video/monster-commuter.png</image:loc>
     </image:image>
   </url>
 </urlset>

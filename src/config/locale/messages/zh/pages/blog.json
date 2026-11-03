@@ -1,21 +1,21 @@
 {
   "metadata": {
     "title": "博客",
-    "description": "阅读我们最新的产品功能、解决方案和更新内容。"
+    "description": "阅读 Seedance 2.5 发布新闻、AI 视频指南和 Seadance Video 更新动态。"
   },
   "blog": {
     "id": "blog",
-    "sr_only_title": "Nano Banana Pro 博客",
+    "sr_only_title": "Seadance Video 博客",
     "title": "博客",
-    "description": "阅读我们最新的产品功能、解决方案和更新内容。"
+    "description": "阅读 Seedance 2.5 发布新闻、AI 视频指南和 Seadance Video 更新动态。"
   },
   "page": {
-    "title": "Nano Banana Pro 博客",
+    "title": "Seadance Video 博客",
     "sections": {
       "blog": {
         "id": "blog",
         "title": "博客",
-        "description": "阅读我们最新的产品功能、解决方案和更新内容。"
+        "description": "阅读 Seedance 2.5 发布新闻、AI 视频指南和 Seadance Video 更新动态。"
       }
     }
   },

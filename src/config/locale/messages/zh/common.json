@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "Banana Pro — 让你的疯狂构思成真",
-    "description": "Banana Pro 是最新的最先进 AI 图片生成平台。以极速和精准度创作、编辑和合成图片。",
-    "keywords": "Banana Pro, AI 图片生成器, Nano Banana 2, 图片编辑, AI 艺术, 文字生成图片, 图片合成"
+    "title": "Seadance Video | Seedance 2.5 动态与 AI 视频生成器",
+    "description": "关注 Seedance 2.5 发布动态，使用当前支持的 Seedance 2.0 文生视频和图生视频生成器创作视频。",
+    "keywords": "Seedance 2.5, Seedance 2.0, Seadance Video, 字节跳动 AI 视频, AI 视频生成器, 文生视频, 图生视频"
   },
   "sign": {
     "sign_in_title": "免费开始",
-    "sign_in_description": "登录到您的账户",
+    "sign_in_description": "登录 Seadance Video",
     "sign_up_title": "注册",
-    "sign_up_description": "创建一个新账户",
+    "sign_up_description": "创建 Seadance Video 账户",
     "email_title": "邮箱",
     "email_placeholder": "请输入您的邮箱",
     "password_title": "密码",
