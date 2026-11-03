@@ -2,9 +2,10 @@ import { envConfigs } from '..';
 
 export const localeNames: Record<string, string> = {
   en: 'English',
+  zh: '中文',
 };
 
-export const locales = ['en'];
+export const locales = ['en', 'zh'];
 
 export const defaultLocale = envConfigs.locale;
 
