@@ -104,6 +104,7 @@
     "default_preview": {
       "badge": "Example",
       "prompt_label": "Prompt",
+      "prompt": "A majestic blue whale glides through a golden sea of clouds at sunrise. The camera slowly arcs alongside it as its tail sweeps through the mist, with warm rim light, distant mountain peaks, and cinematic fantasy detail.",
       "result_hint": "Your generated video will replace this example."
     },
     "ready_to_generate": "Ready to Generate",

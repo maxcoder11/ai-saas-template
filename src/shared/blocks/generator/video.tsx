@@ -89,11 +89,10 @@ const POLL_INTERVAL = 15000;
 const GENERATION_TIMEOUT = 600000; // 10 minutes for video
 const MAX_PROMPT_LENGTH = 2000;
 const DEFAULT_VIDEO_EXAMPLE = {
-  url: '/videos/seadance/hero-preview.webm',
-  model: 'Seedance 2.0',
+  url: '/videos/seadance/generator-preview.mp4',
+  poster: '/videos/seadance/generator-preview.jpg',
+  model: 'Seedance 2.0 Fast',
   aspectRatio: '16:9',
-  prompt:
-    'A cinematic shot of graceful swans gliding peacefully across a calm lake at sunset, delicate golden ripples catching the twilight sky, smooth water reflections, photorealistic.',
 } as const;
 const GENERATED_CONTENT_SAFETY_MESSAGE =
   'This generated result violates our content safety policy and cannot be displayed. Please revise your prompt and try again.';
@@ -107,12 +106,14 @@ const MODEL_OPTIONS = MODELS.filter(
 interface DefaultVideoPreviewProps {
   badgeLabel: string;
   promptLabel: string;
+  prompt: string;
   resultHint: string;
 }
 
 function DefaultVideoPreview({
   badgeLabel,
   promptLabel,
+  prompt,
   resultHint,
 }: DefaultVideoPreviewProps) {
   return (
@@ -120,6 +121,7 @@ function DefaultVideoPreview({
       <div className="bg-muted aspect-video overflow-hidden rounded-lg border">
         <video
           src={DEFAULT_VIDEO_EXAMPLE.url}
+          poster={DEFAULT_VIDEO_EXAMPLE.poster}
           controls
           controlsList="nodownload"
           playsInline
@@ -141,7 +143,7 @@ function DefaultVideoPreview({
         <div className="space-y-1.5">
           <p className="text-sm font-medium">{promptLabel}</p>
           <p className="text-muted-foreground text-sm leading-relaxed">
-            {DEFAULT_VIDEO_EXAMPLE.prompt}
+            {prompt}
           </p>
         </div>
 
@@ -1255,6 +1257,7 @@ export function VideoGenerator({
                   <DefaultVideoPreview
                     badgeLabel={t('default_preview.badge')}
                     promptLabel={t('default_preview.prompt_label')}
+                    prompt={t('default_preview.prompt')}
                     resultHint={t('default_preview.result_hint')}
                   />
                 )}
